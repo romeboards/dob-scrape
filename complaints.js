@@ -74,7 +74,7 @@ var parseComments = function() {
   console.log(JSON.stringify(prop));
 };
 
-var getComplaints = function () {
+//var getComplaints = function () {
   request({url:complaintsByAddressUrl, qs:params}, function (error, response, body) {
     if (error) console.log(error);
     if (!error && response.statusCode == 200) {
@@ -82,5 +82,5 @@ var getComplaints = function () {
       parser.end();
     }
   });
-}
+//}
 

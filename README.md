@@ -1,15 +1,12 @@
-# NYC DOB complaint/violations into machine-readable format
+# NYC DOB complaints/violations into machine-readable format
 
-using BIS: http://a810-bisweb.nyc.gov/bisweb/bispi00.jsp
-
-scraping data from the BIS webportal. progress:
+scraping data from the [BIS webportal](http://a810-bisweb.nyc.gov/bisweb/bispi00.jsp). progress:
 
 - [x] complaints
-- [ ] ECB violaitions
-- [ ] DOB violaitions
+- [ ] ECB violations
+- [ ] DOB violations
 - [ ] BIS overview page
  
 usage: 
 
 `node complaints.js <bin>`
-
