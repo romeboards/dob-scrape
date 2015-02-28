@@ -10,3 +10,4 @@ scraping data from the BIS webportal. progress:
 usage: 
 
 `node complaints.js <bin>`
+
