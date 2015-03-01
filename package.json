@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "htmlparser2" : "latest",
-    "request" : "latest"
+    "request" : "latest",
+    "q" : "latest"
   }
 }
